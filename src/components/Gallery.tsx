@@ -99,6 +99,27 @@ export const Gallery: React.FC = () => {
 
   const items: GalleryItem[] = [
     {
+      id: 19,
+      title: 'Modern Black Corrugated Steel Sliding Gate with Wicket Door',
+      category: 'Gates',
+      slug: 'gates',
+      image: '/images/gate_black_sliding_wide.jpg',
+      photos: [
+        '/images/gate_black_sliding_wide.jpg',
+        '/images/gate_black_sliding_front.jpg',
+        '/images/gate_black_sliding_track.jpg',
+        '/images/gate_black_sliding_back.jpg',
+      ],
+      photoCaptions: [
+        'Complete Driveway Overview — Finished Modern Matte Black Corrugated Sliding Gate Installation',
+        'Front Elevation Detail — Heavy Structural Steel Box Frame with Integrated Wicket Entry Door',
+        'Track & Roller Mechanism — Ground-Mounted Guide Track and Precision Bearing Wheels on Sloped Ramp',
+        'Rear Framework & Fabrication — Heavy-Gauge Steel Subframe and Dual-Tone Protective Enamel Finish',
+      ],
+      description: 'A heavy-duty modern sliding driveway gate fabricated from horizontal corrugated steel cladding mounted on reinforced structural box tubing with a weather-resistant matte black finish. Features smooth ground-track roller bearings engineered for sloped ramps, a matching integrated pedestrian wicket door, and robust security latching for complete residential boundary protection.',
+      tag: 'Sliding Gate',
+    },
+    {
       id: 18,
       title: 'Rooftop Solar Water Heater Anti-Monkey Protective Guard Cage',
       category: 'Solar & Safety Mesh',
